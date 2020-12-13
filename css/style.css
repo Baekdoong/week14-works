@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+
+
+.img0{
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.img1{
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.img2{
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.img3 {
+    width:100%;
+    height:100%;
+    position:absolute;
+
+    animation: opacitys;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+.img4 {
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+
+
+.titletypo1 {
+    width:230px;
+    height:200px;
+    position:absolute;
+    left: 84%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+    
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+
+.titletypo2 {
+    width:300px;
+    height:270px;
+    position:absolute;
+    left: 84%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+
+.titletypo3{
+    width:350px;
+    height:149px;
+    position:absolute;
+    left: 75%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+.actorname1 {font-size: 10pt;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+
+.actorname2 {font-size: 10pt;
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+.actorname3 {font-size: 10pt;
+    color: white;
+    position: absolute;
+    left: 35%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+.actorname4 {font-size: 10pt;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+.actorname5 {font-size: 10pt;
+    color: white;
+    position: absolute;
+    left: 55%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+.actorname6 {font-size: 10pt;
+    color: white;
+    position: absolute;
+    left: 65%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+.actorname7 {font-size: 10pt;
+    color: white;
+    position: absolute;
+    left: 75%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+.actorname8 {font-size: 10pt;
+    color: white;
+    position: absolute;
+    left: 85%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+.date {font-size: 30pt;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+    letter-spacing: 5px;
+    font-family: 'Anton', sans-serif;
+
+
+    animation: titleopacitys;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+
+
+@-webkit-keyframes opacitys {
+    0% { 
+        opacity: 1; 
+    }
+
+    100% {
+         opacity: 0;
+      }
+    }
+
+
+ @-webkit-keyframes titleopacitys {
+    0% { 
+        opacity: 0; 
+    }
+
+        50%{ 
+        opacity: 0; 
+    }
+
+
+    100% {
+         opacity: 1;
+      }
+    }
+
+
+ 
